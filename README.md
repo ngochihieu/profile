@@ -3,34 +3,6 @@
 
 <h2 align="center">About me</h2>
 
-```golang
-package main
-
-import (
-	"fmt"
-)
-
-type Bio map[string]string
-
-func main() {
-	for k, v := range GetBio() {
-		fmt.Printf("%+v: %+v\n", k, v)
-	}
-}
-
-func GetBio() Bio {
-	return Bio{
-		"- ⚡ Quick bio:":                    "Chỉ có thành công mới định nghĩa mày là ai!",
-		"- 🔭 I’m currently working on":      "Đang học tập và làm việc tại UIT",
-		"- 🌱 I’m currently learning":        "Dart, Flutter",
-		"- 👯 I’m looking to collaborate on": "Python, Golang and Docker related projects",
-		"- 🤔 I’m looking for help with":     "Anything related to what I am currently learning 😅",
-		"- 💬 Ask me about":                  "C, C++, C#, Java, Dart, HTML, JavaScript, Python, SQL",
-		"- 📫 How to reach me:":              "https://github.com/ngochihieu",
-	}
-}
-```
-
 <h2 align="center">You can reach me at :alien:</h2>
 
 <p align="center">
